@@ -30,14 +30,21 @@ The analysis aims to:
 
 ## Dataset
 
-The primary dataset used in this project is derived from parliamentary activity data compiled from PRS India.
+The dataset used in this project is the `india-representatives-activity` dataset by Vonter, which compiles parliamentary activity data sourced from PRS India.
 
-The raw dataset is included in:
+The raw dataset is stored in:
 
 `data/raw/17th.csv`
 
-The analysis uses participation indicators reported for members of the 17th Lok Sabha.
+The analysis uses parliamentary participation indicators reported for the 17th Lok Sabha, including attendance, debates, questions, and Private Member Bills.
 
+### Data Sources
+
+- Vonter — India Representatives Activity dataset
+- PRS India — MP Track / 17th Lok Sabha
+- Digital Sansad — Parliament of India
+
+The Vonter dataset is used as the structured source for the initial analysis, while PRS India and Digital Sansad provide the underlying parliamentary context and authoritative reference sources.
 ## Methodology
 
 ### Data Preparation
